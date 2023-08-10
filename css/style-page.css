@@ -50,7 +50,7 @@ nav {
     height: 40px;
 }
 header .wave3 {
-    background-image: url(/img/wave4.svg);
+    background-image: url(../img/wave4.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -217,7 +217,7 @@ main {
 }
 .wave4 {
     position: relative;
-    background-image: url(/img/wave4.svg);
+    background-image: url(../img/wave4.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
