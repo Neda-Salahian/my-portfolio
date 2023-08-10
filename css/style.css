@@ -339,16 +339,19 @@ nav {
     height: 220px;
     padding: 10px;
 }
-.about-img img {
-    animation: bounce 1s infinite;
-}
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
     }
-    50% {
+    25%, 75% {
         transform: translateY(-20px);
     }
+    50% {
+        transform: translateY(-40px);
+    }
+}
+.about-img img {
+    animation: bounce 2s 2 alternate;
 }
 
 
