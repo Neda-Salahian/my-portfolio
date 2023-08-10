@@ -339,6 +339,17 @@ nav {
     height: 220px;
     padding: 10px;
 }
+.about-img img {
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
 
 
 /* PORTFOLIO */
