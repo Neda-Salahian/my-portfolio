@@ -242,6 +242,7 @@ nav {
 .about-container{
     display: flex;
     background-color: #1a1e21;
+    height: 350px;
 }
 
 /* container-1 */
@@ -372,6 +373,7 @@ nav {
     z-index: 1;
     height: 200px;
     position: relative;
+    margin-top: 0px;
 }
 .portfolio-title{
     padding: 0px 0px 0px 8%;
